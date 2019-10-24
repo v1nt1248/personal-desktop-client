@@ -1,0 +1,55 @@
+export const SYSTEM_MAIL_FOLDER_ID: Record<string, string> = {
+  Inbox: '0',
+  Draft: '1',
+  Outbox: '2',
+  Sent: '3',
+  Trash: '4',
+};
+
+export const MAIL_FOLDER_DEFAULT: Record<string, IMailFolder> = {
+  [SYSTEM_MAIL_FOLDER_ID.Inbox]: {
+    id: SYSTEM_MAIL_FOLDER_ID.Inbox,
+    orderNum: 0,
+    nameKey: 'app-mail.system.mail-folder.inbox',
+    isSystem: true,
+    icon: 'home',
+    messageKeys: [],
+    noReadQt: 0,
+  },
+  [SYSTEM_MAIL_FOLDER_ID.Draft]: {
+    id: SYSTEM_MAIL_FOLDER_ID.Draft,
+    orderNum: 1,
+    nameKey: 'app-mail.system.mail-folder.draft',
+    isSystem: true,
+    icon: 'folder',
+    messageKeys: [],
+    noReadQt: 0,
+  },
+  [SYSTEM_MAIL_FOLDER_ID.Outbox]: {
+    id: SYSTEM_MAIL_FOLDER_ID.Outbox,
+    orderNum: 2,
+    nameKey: 'app-mail.system.mail-folder.outbox',
+    isSystem: true,
+    icon: 'folder',
+    messageKeys: [],
+    noReadQt: 0,
+  },
+  [SYSTEM_MAIL_FOLDER_ID.Sent]: {
+    id: SYSTEM_MAIL_FOLDER_ID.Sent,
+    orderNum: 3,
+    nameKey: 'app-mail.system.mail-folder.sent',
+    isSystem: true,
+    icon: 'folder',
+    messageKeys: [],
+    noReadQt: 0,
+  },
+  [SYSTEM_MAIL_FOLDER_ID.Trash]: {
+    id: SYSTEM_MAIL_FOLDER_ID.Trash,
+    orderNum: 4,
+    nameKey: 'app-mail.system.mail-folder.trash',
+    isSystem: true,
+    icon: 'folder',
+    messageKeys: [],
+    noReadQt: 0,
+  },
+};

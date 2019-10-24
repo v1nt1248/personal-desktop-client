@@ -1,0 +1,47 @@
+@import '../../../common.scss';
+
+.image-uploader {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 60%;
+}
+
+.image-uploader__body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: $size-3x;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+
+.image-uploader__initials {
+    display: block;
+    font-size: $font-64;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px var(--grey-midlow);
+}
+
+.image-uploader__btn {
+    position: absolute;
+    bottom: $size-3x;
+    left: calc(50% - 20px);
+    background-color: var(--grey-lowes);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.image-uploader__body:hover {
+    cursor: pointer;
+    .image-uploader__btn {
+        opacity: 1;
+    }
+} 

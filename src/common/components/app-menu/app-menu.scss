@@ -1,0 +1,93 @@
+@import '../../../common.scss';
+
+.app-menu {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: $size-9x;
+  box-shadow: 0 0 $size-1x 0 $grey-a32;
+  padding: 0 $size-2x;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main);
+}
+
+.app-menu__info {
+  position: relative;
+  box-sizing: border-box;
+  height: $size-9x;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  & .app-menu__setup {
+    outline-width: 0;
+    cursor: pointer;
+  }
+
+  & .contact-icon {
+    margin-right: $size-4x;
+  }
+}
+
+.app-menu__info-user {
+  position: relative;
+  box-sizing: border-box;
+  height: $size-9x;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-weight: 500;
+  margin-right: $size-10x;
+  color: var(--main-inverse);
+
+  b {
+    display: block;
+    font-size: $font-14;
+    line-height: 1.4;
+  }
+
+  span {
+    display: block;
+    font-size: $font-12;
+    line-height: 1.4;
+  }
+}
+
+.app-menu__apps {
+  position: relative;
+  box-sizing: border-box;
+  height: $size-9x;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app-menu__item-active {
+  padding-bottom: 4px;
+  border-bottom: 2px solid $azure;
+}
+
+.app-menu__action {
+  position: relative;
+  box-sizing: border-box;
+  height: $size-9x;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  .v-btn {
+    color: var(--azure);
+    caret-color: var(--azure);
+
+    .v-icon {
+      color: var(--icon-default);
+    }
+  }
+}

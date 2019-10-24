@@ -1,0 +1,1 @@
+../3NWeb.app/Contents/MacOS/3NWeb "--app-dir=http://localhost:8080|." --data-dir=../mock-data --devtools

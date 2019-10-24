@@ -1,0 +1,87 @@
+@import '../../../common.scss';
+
+.contact-list {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-list__header {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: $size-20 * 3;
+  padding: 0 $size-2x;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  & button.v-btn {
+    text-transform: capitalize;
+    color: var(--azure);
+    background-color: var(--main) !important;
+    border-color: var(--main);
+  }
+}
+
+.contact-list__search-block {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: $size-6x;
+  padding: $size-1x $size-2x 0 $size-2x;
+  background-color: var(--grey-lowest);
+
+  &::v-deep {
+    .v-text-field {
+      padding: 0;
+      margin: 0;
+      height: $size-5x;
+      font-size: $font-14;
+
+      &.v-input {
+        .v-input__slot {
+          &::before {
+            border-color: var(--icon-default);
+          }
+        }
+
+        .v-input__control {
+          .v-input__slot:hover {
+            &:before {
+              border-color: var(--icon-default);
+            }
+          }
+        }
+
+        &--is-focused {
+          .v-input__slot {
+            &::before {
+              border-color: var(--azure);
+            }
+          }
+
+          .v-input__control {
+            .v-input__slot:hover {
+              &:before {
+                border-color: var(--azure);
+              }
+            }
+          }
+        }
+      }
+  
+      & .v-text-field__slot {
+        input {
+          color: var(--main-inverse);
+        }
+      }
+
+      .v-icon {
+        color: var(--icon-default);
+      }
+    }
+  }
+}

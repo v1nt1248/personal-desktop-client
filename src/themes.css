@@ -1,0 +1,63 @@
+:root, [data-theme="default"] {
+    --main: #ffffff;
+    --main-additional: rgba(0, 0, 0, 0.06);
+    --main-inverse: #000000;
+    --main-inverse-select: rgba(0, 0, 0, 0.08);
+    --azure: #0090ec;
+    --azure-low: rgba(0, 144, 236, 0.12);
+    --azure-mid: #cce4f9;
+    --azure-high: rgba(0, 144, 236, 0.54);
+    --azure-bg: rgba(0, 144, 236, 0.24);
+    --azure-select: #cce4f9;
+    --azure-shadow: rgba(0, 144, 236, 0.48);
+    --yellow: #ffc765;
+    --green: #2fd365;
+    --red: #f44336;
+    --red-highest: rgba(244, 67, 54, 0.87);
+    --grey-lowest: rgba(0, 0, 0, 0.06);
+    --grey-low: rgba(0, 0, 0, 0.12);
+    --grey-midlow: rgba(0, 0, 0, 0.24);
+    --grey-mid: rgba(0, 0, 0, 0.32);
+    --grey-high: rgba(0, 0, 0, 0.54);
+    --grey-highest: rgba(0, 0, 0, 0.87);
+    --main-inverse-shadow-01: rgba(0, 0, 0, 0.15);
+    --main-inverse-shadow-02: rgba(0, 0, 0, 0.24);
+    --button-primary-disabled: rgba(0, 144, 236, 0.54);
+    --button-secondary: #ffffff;
+    --button-tertiary: rgba(0, 144, 236, 0.24);
+    --card-default: #ffffff;
+    --icon-default: rgba(0, 0, 0, 0.54);
+    --cover: rgba(0, 0, 0, 0.54);
+}
+
+[data-theme="dark"] {
+    --main: #252525;
+    --main-additional: #323232;
+    --main-inverse: #ffffff;
+    --main-inverse-select: rgba(255, 255, 255, 0.08);
+    --azure: #5cb8f3;
+    --azure-low: #788994;
+    --azure-mid: #0e3047;
+    --azure-high: #10222d;
+    --azure-bg: #10222d;
+    --azure-select: #0e3047;
+    --azure-shadow: rgba(92, 184, 243, 0.32);
+    --yellow: #fff176;
+    --green: #66bb6a;
+    --red: #ef5350;
+    --red-highest: rgba(239, 83, 80, 0.87);
+    --grey-lowest: #202020;
+    --grey-low: #3c3c3c;
+    --grey-midlow: rgba(255, 255, 255, 0.54);
+    --grey-mid: rgba(255, 255, 255, 0.54);
+    --grey-high: rgba(255, 255, 255, 0.54);
+    --grey-highest: rgba(255, 255, 255, 0.87);
+    --main-inverse-shadow-01: rgba(0, 0, 0, 0.15);
+    --main-inverse-shadow-02: rgba(0, 0, 0, 0.24);
+    --button-primary-disabled: #365467;
+    --button-secondary: rgba(255, 255, 255, 0.16);
+    --button-tertiary: rgba(255, 255, 255, 0.08);
+    --card-default: #252525;
+    --icon-default: rgba(255, 255, 255, 0.54);
+    --cover: rgba(0, 0, 0, 0.54);
+}

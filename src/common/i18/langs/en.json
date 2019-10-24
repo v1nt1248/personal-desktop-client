@@ -1,0 +1,15 @@
+{
+  "app.menu.title.chat": "Chat",
+  "app.menu.title.mail": "Mail",
+  "app.menu.title.storage": "Storage",
+  "app.menu.title.contacts": "Contacts",
+  "app-mail.system.mail-folder.inbox": "Inbox",
+  "app-mail.system.mail-folder.draft": "Draft",
+  "app-mail.system.mail-folder.outbox": "Outbox",
+  "app-mail.system.mail-folder.sent": "Sent",
+  "app-mail.system.mail-folder.trash": "Trash",
+  "app-setup.logout": "log out",
+  "user.status": "Status",
+  "user.status.connected": "Connected",
+  "contact.newBtn.text": "Add New Contact"
+}

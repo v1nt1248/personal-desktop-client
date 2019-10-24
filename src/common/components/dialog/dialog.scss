@@ -1,0 +1,15 @@
+@import '../../../common.scss';
+
+.dialog__action {
+    padding: $size-10 $size-3x $size-2x $size-3x;
+    justify-content: flex-end;
+
+    .dialog__btn-cancel {
+        color: var(--main);
+    }
+
+    .dialog__btn-success {
+        margin-left: $size-2x !important;
+        color: var(--azure);
+    }
+}

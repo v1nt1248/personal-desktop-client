@@ -1,0 +1,82 @@
+@import '../../../common.scss';
+
+.person {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  font-family: OpenSans, sans-serif;
+}
+
+.person__form {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.person__form-toolbar {
+  min-height: $size-7x;
+  height: $size-7x;
+  background-color: var(--grey-lowest);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pesron__action-btn {
+  color: var(--grey-high);
+  text-transform: none;
+}
+
+.person__form-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: $size-1x $size-2x;
+
+  .v-input {
+    color: var(--grey-highest);
+
+    &::v-deep {
+      .v-label {
+        font-size: $font-13;
+        font-weight: 600;
+        color: var(--grey-a87);
+      }
+
+      input, textarea {
+        font-size: $font-14;
+        font-weight: 600;
+
+        &::placeholder {
+          color: var(--grey-high);
+          font-style: italic;
+          font-size: $font-14;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+.person__form-actions {
+  min-height: $size-7x;
+  height: $size-7x;
+  padding: 0 $size-2x;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.person__form-action-btn {
+  color: var(--main);
+  margin-left: $size-2x;
+}

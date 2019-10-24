@@ -1,0 +1,1 @@
+../3NWeb-mock-0.8.3-linux-x64/3nweb "--app-dir=http://localhost:8080|." --data-dir=../mock-data --devtools

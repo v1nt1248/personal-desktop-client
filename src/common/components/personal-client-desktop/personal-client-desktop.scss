@@ -1,0 +1,16 @@
+.personal-client-desktop {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+
+    &__info {
+        position: absolute;
+        left: calc(50% - 120px);
+        top: 240px;
+        font-family: OpenSans, sans-serif;
+        font-style: italic;
+        color: var(--grey-mid);
+        z-index: -1;
+    }
+}

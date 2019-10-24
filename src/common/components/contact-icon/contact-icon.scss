@@ -1,0 +1,23 @@
+@import '../../../common.scss';
+
+.contact-icon {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.contact-icon__letter {
+  color: var(--main);
+  font-weight: 500;
+  line-height: 1;
+  z-index: 1;
+  pointer-events: none;
+  user-select: none;
+  text-shadow: 2px 2px 5px var(--grey-midlow);
+}

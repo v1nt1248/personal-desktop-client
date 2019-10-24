@@ -1,0 +1,48 @@
+@import '../../../common.scss';
+
+.app-contacts {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: var(--main);
+
+    &__wrap {
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.app-contacts__column {
+    &-header {
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        height: $size-8x;
+        padding: 0 $size-2x;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        & button.v-btn {
+            text-transform: capitalize;
+            color: var(--azure);
+            background-color: var(--main) !important;
+            border-color: var(--main);
+        }
+    }
+
+    &-content {
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        height: calc(100% - #{$size-8x});
+    }
+}

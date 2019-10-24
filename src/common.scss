@@ -1,0 +1,66 @@
+/* colors */
+$white: #ffffff;
+$white-01: #f1f1f1;
+$black: #000000;
+$azure: #0090ec;
+$azure-a12: rgba(0, 144, 236, 0.12);
+$azure-a24: #cce4f9;
+$azure-a87: rgba(0, 144, 236, 0.87);
+$azure-bg: #cce4f9;
+$azure-select: #b4d7f6;
+$blue: #3675a8;
+$blue-dark: #195f97;
+$blue-light: #c2d9ef;
+$yellow: #ffc765;
+$green: #2fd365;
+$red: #f44336;
+$red-a87: rgba(244, 67, 54, 0.87);
+$grey-a06: rgba(0, 0, 0, 0.06);
+$grey-a12: rgba(0, 0, 0, 0.12);
+$grey-a24: rgba(0, 0, 0, 0.24);
+$grey-a32: rgba(0, 0, 0, 0.32);
+$grey-a54: rgba(0, 0, 0, 0.54);
+$grey-a87: rgba(0, 0, 0, 0.87);
+
+$black-01-shadow: rgba(0, 0, 0, 0.15);
+$black-02-shadow: rgba(0, 0, 0, 0.24);
+$azure-shadow: rgba(0, 144, 236, 0.48);
+
+/* size: 1x = 8px */
+$size-half: 4px;
+$size-1x: 8px;
+$size-2x: 16px;
+$size-3x: 24px;
+$size-4x: 32px;
+$size-5x: 40px;
+$size-6x: 48px;
+$size-7x: 56px;
+$size-8x: 64px;
+$size-9x: 72px;
+$size-10x: 80px;
+$size-11x: 88px;
+$size-12x: 96px;
+$size-16x: 128px;
+
+$size-10: 10px;
+$size-12: 12px;
+$size-15: 15px;
+$size-18: 18px;
+$size-20: 20px;
+$size-column: 95px;
+
+/* font-size */
+$font-10: 10px;
+$font-12: 12px;
+$font-13: 13px;
+$font-14: 14px;
+$font-16: 16px;
+$font-18: 18px;
+$font-24: 24px;
+$font-32: 32px;
+$font-64: 64px;
+
+.hexMask {
+    clip-path: polygon(48.5% 0%, 7.5% 22.5%, 5% 26%, 5% 74%, 7.5% 77.5%, 48.5% 100%, 51.5% 100%, 92.5% 77.5%, 95% 74%, 95% 26%, 92.5% 22.5%, 51.5% 0%);
+    background-color: rgba(0, 0, 0, 0.06);
+}
